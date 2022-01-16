@@ -15,10 +15,10 @@ public class printArrayInStars {
         }
         for (int n = 0; n <Value.length; n++) {
             int number = Value[n];
-	    System.out.print(n + ":");
+            System.out.print(n + ":");
 
             for (int stars = 1; stars <= number; stars++) {
-                System.out.print("*");
+            	System.out.print("*");
             }
             System.out.print("(" + Value[n] + ")");
            System.out.println("");
